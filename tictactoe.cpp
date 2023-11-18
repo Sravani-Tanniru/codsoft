@@ -106,15 +106,5 @@ void newGame()
 {
 	sq[1] = '1';sq[2] = '2';sq[3] = '3';sq[4] = '4';sq[5] = '5';
 	sq[6] = '6';sq[7] = '7';sq[8] = '8';sq[9] = '9';
-	cout<<"\n\n\t  Tic Tac Toe  \n\n";
-	cout<<"Player 1(X) - Player 2(O) \n\n\n";
-	cout<<"           |      |     \n";
-	cout<<"      "<<sq[1]<<"    | "<<sq[2]<<"    | "<<sq[3]<<"    \n";
-	cout<<"     ______|______|______   \n";
-	cout<<"           |      |     \n";
-	cout<<"      "<<sq[4]<<"    | "<<sq[5]<<"    | "<<sq[6]<<"   \n";
-	cout<<"     ______|______|______\n";
-	cout<<"           |      |     \n";
-	cout<<"      "<<sq[7]<<"    | "<<sq[8]<<"    | "<<sq[9]<<"    \n";
-	cout<<"           |      |     \n";
+	drawBoard();
 }
